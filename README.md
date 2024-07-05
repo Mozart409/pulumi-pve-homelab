@@ -2,10 +2,10 @@
   <img src="https://raw.githubusercontent.com/PKief/vscode-material-icon-theme/ec559a9f6bfd399b82bb44393651661b08aaf7ba/icons/folder-markdown-open.svg" width="100" alt="project-logo">
 </p>
 <p align="center">
-    <h1 align="center">PULUMI-PVE-HOMELAB</h1>
+    <h1 align="center">Pulumi PVE homelab</h1>
 </p>
 <p align="center">
-    <em><code>► INSERT-TEXT-HERE</code></em>
+    <em><code>► My personal pulumi project for creating lxc containers</code></em>
 </p>
 <p align="center">
 	<img src="https://img.shields.io/github/license/mozart409/pulumi-pve-homelab?style=default&logo=opensourceinitiative&logoColor=white&color=0080ff" alt="license">
@@ -52,7 +52,9 @@
 
 ```sh
 └── pulumi-pve-homelab/
+    ├── LICENSE
     ├── Pulumi.yaml
+    ├── README.md
     ├── biome.jsonc
     ├── index.ts
     ├── justfile
@@ -70,14 +72,14 @@
 
 | File                                                                                         | Summary                         |
 | ---                                                                                          | ---                             |
-| [lefthook.yml](https://github.com/mozart409/pulumi-pve-homelab/blob/master/lefthook.yml)     | <code>► INSERT-TEXT-HERE</code> |
 | [pnpm-lock.yaml](https://github.com/mozart409/pulumi-pve-homelab/blob/master/pnpm-lock.yaml) | <code>► INSERT-TEXT-HERE</code> |
-| [tsconfig.json](https://github.com/mozart409/pulumi-pve-homelab/blob/master/tsconfig.json)   | <code>► INSERT-TEXT-HERE</code> |
+| [lefthook.yml](https://github.com/mozart409/pulumi-pve-homelab/blob/master/lefthook.yml)     | <code>► INSERT-TEXT-HERE</code> |
 | [Pulumi.yaml](https://github.com/mozart409/pulumi-pve-homelab/blob/master/Pulumi.yaml)       | <code>► INSERT-TEXT-HERE</code> |
-| [package.json](https://github.com/mozart409/pulumi-pve-homelab/blob/master/package.json)     | <code>► INSERT-TEXT-HERE</code> |
 | [justfile](https://github.com/mozart409/pulumi-pve-homelab/blob/master/justfile)             | <code>► INSERT-TEXT-HERE</code> |
-| [biome.jsonc](https://github.com/mozart409/pulumi-pve-homelab/blob/master/biome.jsonc)       | <code>► INSERT-TEXT-HERE</code> |
+| [tsconfig.json](https://github.com/mozart409/pulumi-pve-homelab/blob/master/tsconfig.json)   | <code>► INSERT-TEXT-HERE</code> |
 | [index.ts](https://github.com/mozart409/pulumi-pve-homelab/blob/master/index.ts)             | <code>► INSERT-TEXT-HERE</code> |
+| [biome.jsonc](https://github.com/mozart409/pulumi-pve-homelab/blob/master/biome.jsonc)       | <code>► INSERT-TEXT-HERE</code> |
+| [package.json](https://github.com/mozart409/pulumi-pve-homelab/blob/master/package.json)     | <code>► INSERT-TEXT-HERE</code> |
 
 </details>
 
@@ -87,7 +89,8 @@
 
 **System Requirements:**
 
-* **JSON**: `version x.y.z`
+* **Just**: `version 1.25`
+* **Pulumi**: `version 3.122`
 
 ###  Installation
 
@@ -106,8 +109,13 @@
 >
 > 3. Install the dependencies:
 > ```console
-> $ > INSERT-INSTALL-COMMANDS
+> $ pnpm install
 > ```
+> 4. Set environment variables:
+> ```console
+> $ cp .env.example .env
+> ```
+
 
 ###  Usage
 
@@ -115,7 +123,7 @@
 
 > Run pulumi-pve-homelab using the command below:
 > ```console
-> $ > INSERT-RUN-COMMANDS
+> $ just up
 > ```
 
 ###  Tests
@@ -182,7 +190,7 @@ Contributions are welcome! Here are several ways you can contribute:
 
 ##  License
 
-This project is protected under the [SELECT-A-LICENSE](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
+This project is protected under the [MIT](https://choosealicense.com/licenses) License. For more details, refer to the [LICENSE](https://choosealicense.com/licenses/) file.
 
 ---
 
