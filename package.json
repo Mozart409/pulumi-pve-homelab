@@ -1,0 +1,13 @@
+{
+  "name": "pulumi-pve-homelab",
+  "description": "my personal homelab",
+  "main": "index.ts",
+  "author": "",
+  "dependencies": {
+    "@muhlba91/pulumi-proxmoxve": "^6.10.1",
+    "@pulumi/pulumi": "^3.122.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.14.9"
+  }
+}

@@ -1,0 +1,10 @@
+name: pulumi-pve-homelab
+runtime:
+  name: nodejs
+  options:
+    packagemanager: pnpm
+description: my personal homelab
+config:
+  pulumi:tags:
+    value:
+      pulumi:template: https://www.pulumi.com/ai/api/project/ce629fdc-bd8d-47f2-b330-59af00407c88.zip
